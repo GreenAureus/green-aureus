@@ -1,1 +1,2 @@
-# green-aureus
+# Green Aureus
+Environmentally sustainable supply chain.
