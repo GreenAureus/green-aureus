@@ -1,3 +1,10 @@
+// Copyright 2021-2022 Green Aureus GmbH
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy 
+// of this software and associated documentation files (the "Software"), to read 
+// the Software only. Permission is hereby NOT GRANTED to use, copy, modify, 
+// merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
 //! This module offers supply chain functionality. It allows the superuser to authorize
 //! organizations to add audits and new components. Authorized organizations can add
 //! audits to existing components or add new components.

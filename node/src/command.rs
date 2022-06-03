@@ -1,3 +1,10 @@
+// Copyright 2021-2022 Green Aureus GmbH
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy 
+// of this software and associated documentation files (the "Software"), to read 
+// the Software only. Permission is hereby NOT GRANTED to use, copy, modify, 
+// merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
 use crate::{
     chain_spec,
     cli::{Cli, Subcommand},
@@ -29,7 +36,7 @@ impl SubstrateCli for Cli {
     }
 
     fn copyright_start_year() -> i32 {
-        2017
+        2021
     }
 
     fn load_spec(&self, id: &str) -> Result<Box<dyn sc_service::ChainSpec>, String> {
